@@ -36,53 +36,53 @@ public class TroopView {
 
     public Image selectAVERS(){
         if(troop.name() == "Archer" && side==PlayingSide.BLUE)
-            return new Image("...\\resources\\Images\\frontArcherB.png");
+            return new Image("..\\src\\main\\resources\\Images\\frontArcherB.png");
         else if(troop.name() == "Archer" && side==PlayingSide.ORANGE)
-            return new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\frontArcherO.png");
+            return new Image("..\\src\\main\\resources\\Images\\frontArcherO.png");
         else if(troop.name() == "Clubman" && side==PlayingSide.BLUE)
-            return new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\frontClubmanB.png");
+            return new Image("..\\TheDrake\\src\\main\\resources\\Images\\frontClubmanB.png");
         else if(troop.name() == "Clubman" && side==PlayingSide.ORANGE)
-            return new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\frontClubmanO.png");
+            return new Image("..\\TheDrake\\src\\main\\resources\\Images\\frontClubmanO.png");
         else if(troop.name() == "Drake" && side==PlayingSide.BLUE)
-            return new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\frontDrakeB.png");
+            return new Image("..\\TheDrake\\src\\main\\resources\\Images\\frontDrakeB.png");
         else if(troop.name() == "Drake" && side==PlayingSide.ORANGE)
-            return new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\frontDrakeO.png");
+            return new Image("..\\TheDrake\\src\\main\\resources\\Images\\frontDrakeO.png");
         else if(troop.name() == "Spearman" && side==PlayingSide.BLUE)
-            return new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\frontSpearmanB.png");
+            return new Image("..\\TheDrake\\src\\main\\resources\\Images\\frontSpearmanB.png");
         else if(troop.name() == "Spearman" && side==PlayingSide.ORANGE)
-            return new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\frontSpearmanO.png");
+            return new Image("..\\TheDrake\\src\\main\\resources\\Images\\frontSpearmanO.png");
         else if(troop.name() == "Swordsman" && side==PlayingSide.BLUE)
-            return new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\frontSwordsmanB.png");
+            return new Image("..\\TheDrake\\src\\main\\resources\\Images\\frontSwordsmanB.png");
         else if(troop.name() == "Swordsman" && side==PlayingSide.ORANGE)
-            return new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\frontSwordsmanO.png");
+            return new Image("..\TheDrake\\src\\main\\resources\\Images\\frontSwordsmanO.png");
         else if(troop.name() == "Monk" && side==PlayingSide.BLUE)
-            return new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\frontMonkB.png");
-        return new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\frontMonkO.png");
+            return new Image("..\\TheDrake\\src\\main\\resources\\Images\\frontMonkB.png");
+        return new Image("..\\TheDrake\\src\\main\\resources\\Images\\frontMonkO.png");
     }
     public Image selectREVERS(){
         if(troop.name() == "Archer" && side==PlayingSide.BLUE)
-            return new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\backArcherB.png");
+            return new Image("..\\TheDrake\\src\\main\\resources\\Images\\backArcherB.png");
         else if(troop.name() == "Archer" && side==PlayingSide.ORANGE)
-            return new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\backArcherO.png");
+            return new Image("..\\TheDrake\\src\\main\\resources\\Images\\backArcherO.png");
         else if(troop.name() == "Clubman" && side==PlayingSide.BLUE) {
-            return new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\backClubmanB.png");
+            return new Image("..\\TheDrake\\src\\main\\resources\\Images\\backClubmanB.png");
         }
         else if(troop.name() == "Clubman" && side==PlayingSide.ORANGE)
-            return new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\backClubmanO.png");
+            return new Image("..\\TheDrake\\src\\main\\resources\\Images\\backClubmanO.png");
         else if(troop.name() == "Drake" && side==PlayingSide.BLUE)
-            return new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\backDrakeB.png");
+            return new Image("..\\TheDrake\\src\\main\\resources\\Images\\backDrakeB.png");
         else if(troop.name() == "Drake" && side==PlayingSide.ORANGE)
-            return new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\backDrakeO.png");
+            return new Image("..\\TheDrake\\src\\main\\resources\\Images\\backDrakeO.png");
         else if(troop.name() == "Spearman" && side==PlayingSide.BLUE)
-            return new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\backSpearmanB.png");
+            return new Image("..\\TheDrake\\src\\main\\resources\\Images\\backSpearmanB.png");
         else if(troop.name() == "Spearman" && side==PlayingSide.ORANGE)
-            return new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\backSpearmanO.png");
+            return new Image("..\\TheDrake\\src\\main\\resources\\Images\\backSpearmanO.png");
         else if(troop.name() == "Swordsman" && side==PlayingSide.BLUE)
-            return new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\backSwordsmanB.png");
+            return new Image("..\\TheDrake\\src\\main\\resources\\Images\\backSwordsmanB.png");
         else if(troop.name() == "Swordsman" && side==PlayingSide.ORANGE)
-            return new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\backSwordsmanO.png");
+            return new Image("..\\TheDrake\\src\\main\\resources\\Images\\backSwordsmanO.png");
         else if(troop.name() == "Monk" && side==PlayingSide.BLUE)
-            return new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\backMonkB.png");
-        return new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\backMonkO.png");
+            return new Image("..\\TheDrake\\src\\main\\resources\\Images\\backMonkB.png");
+        return new Image("..\\TheDrake\\src\\main\\resources\\Images\\backMonkO.png");
     }
 }
