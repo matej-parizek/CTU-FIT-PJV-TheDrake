@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="thedrake.animation.GameWindow">
+   <children>
+      <AnchorPane layoutX="328.0" layoutY="87.0" prefHeight="600.0" prefWidth="600.0">
+         <children>
+            <VBox fx:id="gameBoard" alignment="CENTER" layoutY="-12.0" prefHeight="609.0" prefWidth="625.0">
+               <children>
+                  <HBox prefHeight="125.0" prefWidth="600.0">
+                     <children>
+                        <HBox>
+                           <children>
+                              <Rectangle fx:id="e0" fill="#dcdee1" height="125.0" smooth="false" stroke="#5b5959" strokeType="INSIDE" strokeWidth="5.0" width="125.0" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <Rectangle fx:id="e1" fill="#dcdee1" height="125.0" smooth="false" stroke="#5b5959" strokeType="INSIDE" strokeWidth="5.0" width="125.0" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <Rectangle fx:id="e2" fill="#dcdee1" height="125.0" smooth="false" stroke="#5b5959" strokeType="INSIDE" strokeWidth="5.0" width="125.0" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <Rectangle fx:id="e3" fill="#dcdee1" height="125.0" smooth="false" stroke="#5b5959" strokeType="INSIDE" strokeWidth="5.0" width="125.0" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <Rectangle fx:id="e4" fill="#dcdee1" height="125.0" smooth="false" stroke="#5b5959" strokeType="INSIDE" strokeWidth="5.0" width="125.0" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="125.0" prefWidth="600.0">
+                     <children>
+                        <HBox>
+                           <children>
+                              <Rectangle fx:id="d0" fill="#dcdee1" height="125.0" smooth="false" stroke="#5b5959" strokeType="INSIDE" strokeWidth="5.0" width="125.0" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <Rectangle fx:id="d1" fill="#dcdee1" height="125.0" smooth="false" stroke="#5b5959" strokeType="INSIDE" strokeWidth="5.0" width="125.0" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <Rectangle fx:id="d2" fill="#dcdee1" height="125.0" smooth="false" stroke="#5b5959" strokeType="INSIDE" strokeWidth="5.0" width="125.0" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <Rectangle fx:id="d3" fill="#dcdee1" height="125.0" smooth="false" stroke="#5b5959" strokeType="INSIDE" strokeWidth="5.0" width="125.0" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <Rectangle fx:id="d4" fill="#dcdee1" height="125.0" smooth="false" stroke="#5b5959" strokeType="INSIDE" strokeWidth="5.0" width="125.0" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="125.0" prefWidth="600.0">
+                     <children>
+                        <HBox>
+                           <children>
+                              <Rectangle fx:id="c0" fill="#dcdee1" height="125.0" smooth="false" stroke="#5b5959" strokeType="INSIDE" strokeWidth="5.0" width="125.0" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <Rectangle fx:id="c1" fill="#dcdee1" height="125.0" smooth="false" stroke="#5b5959" strokeType="INSIDE" strokeWidth="5.0" width="125.0" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <Rectangle fx:id="c2" fill="#dcdee1" height="125.0" smooth="false" stroke="#5b5959" strokeType="INSIDE" strokeWidth="5.0" width="125.0" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <Rectangle fx:id="c3" fill="#dcdee1" height="125.0" smooth="false" stroke="#5b5959" strokeType="INSIDE" strokeWidth="5.0" width="125.0" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <Rectangle fx:id="c4" fill="#dcdee1" height="125.0" smooth="false" stroke="#5b5959" strokeType="INSIDE" strokeWidth="5.0" width="125.0" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="125.0" prefWidth="600.0">
+                     <children>
+                        <HBox>
+                           <children>
+                              <Rectangle fx:id="b0" fill="#dcdee1" height="125.0" smooth="false" stroke="#5b5959" strokeType="INSIDE" strokeWidth="5.0" width="125.0" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <Rectangle fx:id="b1" fill="#dcdee1" height="125.0" smooth="false" stroke="#5b5959" strokeType="INSIDE" strokeWidth="5.0" width="125.0" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <Rectangle fx:id="b2" fill="#dcdee1" height="125.0" smooth="false" stroke="#5b5959" strokeType="INSIDE" strokeWidth="5.0" width="125.0" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <Rectangle fx:id="b3" fill="#dcdee1" height="125.0" smooth="false" stroke="#5b5959" strokeType="INSIDE" strokeWidth="5.0" width="125.0" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <Rectangle fx:id="b4" fill="#dcdee1" height="125.0" smooth="false" stroke="#5b5959" strokeType="INSIDE" strokeWidth="5.0" width="125.0" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="125.0" prefWidth="600.0">
+                     <children>
+                        <HBox>
+                           <children>
+                              <Rectangle fx:id="a0" fill="#dcdee1" height="125.0" smooth="false" stroke="#5b5959" strokeType="INSIDE" strokeWidth="5.0" width="125.0" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <Rectangle fx:id="a1" fill="#dcdee1" height="125.0" smooth="false" stroke="#5b5959" strokeType="INSIDE" strokeWidth="5.0" width="125.0" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <Rectangle fx:id="a2" fill="#dcdee1" height="125.0" smooth="false" stroke="#5b5959" strokeType="INSIDE" strokeWidth="5.0" width="125.0" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <Rectangle fx:id="a3" fill="#dcdee1" height="125.0" smooth="false" stroke="#5b5959" strokeType="INSIDE" strokeWidth="5.0" width="125.0" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <Rectangle fx:id="a4" fill="#dcdee1" height="125.0" smooth="false" stroke="#5b5959" strokeType="INSIDE" strokeWidth="5.0" width="125.0" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <Label layoutX="536.0" layoutY="14.0" text="TheDrake" textFill="#b8b8b8">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="50.0" />
+         </font>
+      </Label>
+      <HBox layoutX="461.0" layoutY="11.0">
+         <children>
+            <ImageView fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/HEAD.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="75.0" stroke="TRANSPARENT" strokeType="INSIDE" width="230.0" />
+            <ImageView fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/HEAD_MIRROR.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <Label layoutX="15.0" layoutY="52.0" text="Player1" textFill="#b8b8b8">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="1083.0" layoutY="52.0" text="Player2" textFill="#b8b8b8">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="50.0" />
+         </font>
+      </Label>
+      <Button fx:id="exitButton" layoutX="1176.0" layoutY="11.0" mnemonicParsing="false" onAction="#exitClick" prefHeight="45.0" prefWidth="90.0" text="Exit" textFill="#b8b8b8">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="backButton" layoutX="14.0" layoutY="11.0" mnemonicParsing="false" onAction="#backClik" prefHeight="45.0" prefWidth="90.0" text="Menu" textFill="#b8b8b8">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="20.0" />
+         </font>
+      </Button>
+      <VBox fx:id="blueStack" alignment="CENTER" layoutX="15.0" layoutY="110.0" prefHeight="500.0" prefWidth="200.0">
+      </VBox>
+      <VBox fx:id="orangeStack" alignment="CENTER" layoutX="1077.0" layoutY="110.0" prefHeight="500.0" prefWidth="200.0">
+      </VBox>
+      <Circle fx:id="blueSide" fill="#9d0c0c" layoutX="223.0" layoutY="87.0" radius="29.0" stroke="#9d0c0c" strokeType="INSIDE" />
+      <Circle fx:id="orangeSide" fill="#9d0c0c" layoutX="1054.0" layoutY="87.0" radius="29.0" stroke="#9d0c0c" strokeType="INSIDE" />
+   </children>
+</AnchorPane>

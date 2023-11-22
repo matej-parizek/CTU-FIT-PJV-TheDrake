@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="thedrake.animation.MenuController">
+    <children>
+        <ImageView fitHeight="720.0" fitWidth="1280.0" pickOnBounds="true" smooth="false">
+            <image>
+                <Image url="@../../Images/Dragon.jpg" />
+            </image>
+        </ImageView>
+        <BorderPane prefHeight="720.0" prefWidth="1280.0">
+            <top>
+                <Label prefHeight="153.0" prefWidth="1155.0" text="TheDrake" textFill="#b8b8b8" BorderPane.alignment="CENTER">
+                    <font>
+                        <Font name="Berlin Sans FB Bold" size="70.0" />
+                    </font>
+                </Label>
+            </top>
+            <left>
+                <VBox prefHeight="500.0" prefWidth="250.0" BorderPane.alignment="TOP_RIGHT">
+                    <children>
+                        <Button fx:id="signleButton" mnemonicParsing="false" onAction="#sigleClick" prefHeight="70.0" prefWidth="300.0" text="Single" textFill="#b8b8b8">
+                            <font>
+                                <Font name="Berlin Sans FB Bold" size="25.0" />
+                            </font>
+                        </Button>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="50.0" stroke="TRANSPARENT" strokeType="INSIDE" width="250.0" />
+                        <Button fx:id="multiButton" mnemonicParsing="false" onAction="#multiClick" prefHeight="70.0" prefWidth="300.0" text="Multi" textFill="#b8b8b8">
+                            <font>
+                                <Font name="Berlin Sans FB Bold" size="25.0" />
+                            </font>
+                        </Button>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="50.0" stroke="TRANSPARENT" strokeType="INSIDE" width="250.0" />
+                        <Button fx:id="onlineButton" mnemonicParsing="false" onAction="#onlineClick" prefHeight="70.0" prefWidth="300.0" text="Online" textFill="#b8b8b8">
+                            <font>
+                                <Font name="Berlin Sans FB Bold" size="25.0" />
+                            </font>
+                        </Button>
+                    </children>
+                    <BorderPane.margin>
+                        <Insets left="70.0" />
+                    </BorderPane.margin>
+                </VBox>
+            </left>
+            <bottom>
+                <HBox alignment="CENTER_RIGHT" BorderPane.alignment="CENTER_RIGHT">
+                    <BorderPane.margin>
+                        <Insets bottom="30.0" right="50.0" />
+                    </BorderPane.margin>
+                    <children>
+                        <Button fx:id="exitButton" mnemonicParsing="false" onAction="#exitClick" prefHeight="50.0" prefWidth="100.0" text="Exit" textFill="#b8b8b8">
+                            <font>
+                                <Font name="Berlin Sans FB Bold" size="25.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </HBox>
+            </bottom>
+        </BorderPane>
+    </children>
+</Pane>
+

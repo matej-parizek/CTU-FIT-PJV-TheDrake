@@ -1,0 +1,23 @@
+.button{
+
+    -fx-background-radius: 8;
+    -fx-background-color:
+        linear-gradient(from 0% 37% to 0% 100%, #b5b5b5 0%, #3c3c3c 100%),
+
+        radial-gradient(center 80% 20%, radius 100%, #D25609FF,#3c3c3c);
+}
+.AnchorPane{
+    -fx-background-color:
+            linear-gradient(from 0% 37% to 0% 100%, #494949 0%, #bb0c0c 100%),
+            radial-gradient(center 20% 80%, radius 100%, #c43535, #2d2a2a);
+}
+#anchorPane{
+    -fx-background-color:
+            linear-gradient(from 0% 37% to 0% 100%, #000000 0%, #8f0f0f 100%),
+            radial-gradient(center 20% 80%, radius 100%, #4d0101, #2d2a2a);
+}
+
+
+#leaveAnchor{-fx-background-color:
+        linear-gradient(from 0% 37% to 0% 100%, #000000 0%, #8f0f0f 100%),
+        radial-gradient(center 20% 80%, radius 100%,  #2d2a2a,#4d0101);}
