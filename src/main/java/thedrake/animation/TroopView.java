@@ -36,7 +36,7 @@ public class TroopView {
 
     public Image selectAVERS(){
         if(troop.name() == "Archer" && side==PlayingSide.BLUE)
-            return new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\frontArcherB.png");
+            return new Image("...\\resources\\Images\\frontArcherB.png");
         else if(troop.name() == "Archer" && side==PlayingSide.ORANGE)
             return new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\frontArcherO.png");
         else if(troop.name() == "Clubman" && side==PlayingSide.BLUE)
