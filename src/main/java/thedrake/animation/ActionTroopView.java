@@ -16,10 +16,9 @@ public class ActionTroopView {
     private final Stack<Stack<Rectangle>> stackBoard;
     private GameState gameState;
     private GameWindow gameWindow;
-    protected Image movingOn= new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\sipka.png");
+    protected Image movingOn= new Image("TheDrake\\src\\main\\resources\\Images\\sipka.png");
 
-    //TODO: Board a BoardPos kouknout se na toto
-    //TODO:Board kontrolovat uda neco neni na pozici
+    
     public ActionTroopView(Stack<Stack<Rectangle>> stackBoard){
         this.stackBoard=stackBoard;
     }
