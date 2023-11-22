@@ -85,7 +85,7 @@ public class BoardView extends ActionTroopView {
     }
 
     public  void Mountains(Board.TileAt... ats){
-       Image image= new Image("C:\\Users\\matpa\\OneDrive\\Plocha\\THEDRAKE\\src\\main\\resources\\Images\\mountain.png");
+       Image image= new Image("..\\TheDrake\\src\\main\\resources\\Images\\mountain.png");
         for ( Board.TileAt tmp : ats){
             stackBoard.get(tmp.pos.i()).get(tmp.pos.j()).setFill(new ImagePattern(image));
         }
